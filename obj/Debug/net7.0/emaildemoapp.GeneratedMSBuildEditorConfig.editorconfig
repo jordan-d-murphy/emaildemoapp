@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = emaildemoapp
+build_property.RootNamespace = emaildemoapp
+build_property.ProjectDir = C:\Users\jdmur\VS Code Projects\emaildemoapp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\jdmur\VS Code Projects\emaildemoapp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/jdmur/VS Code Projects/emaildemoapp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jdmur/VS Code Projects/emaildemoapp/Pages/FData/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRkRhdGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jdmur/VS Code Projects/emaildemoapp/Pages/FData/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRkRhdGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jdmur/VS Code Projects/emaildemoapp/Pages/FData/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRkRhdGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jdmur/VS Code Projects/emaildemoapp/Pages/FData/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRkRhdGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jdmur/VS Code Projects/emaildemoapp/Pages/FData/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRkRhdGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jdmur/VS Code Projects/emaildemoapp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jdmur/VS Code Projects/emaildemoapp/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jdmur/VS Code Projects/emaildemoapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jdmur/VS Code Projects/emaildemoapp/Pages/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jdmur/VS Code Projects/emaildemoapp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jdmur/VS Code Projects/emaildemoapp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jdmur/VS Code Projects/emaildemoapp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-djd246s317

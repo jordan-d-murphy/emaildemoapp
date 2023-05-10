@@ -1,0 +1,94 @@
+@page
+@model emaildemoapp.Pages_FData.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>FData</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FData.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FData.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FData.Password)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FData.Password)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FData.Address1)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FData.Address1)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FData.Address2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FData.Address2)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FData.City)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FData.City)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FData.State)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FData.State)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FData.Zip)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FData.Zip)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FData.TextArea)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FData.TextArea)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FData.Check1)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FData.Check1)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FData.Check2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FData.Check2)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FData.Check3)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FData.Check3)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FData.SubmittedDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FData.SubmittedDate)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="FData.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

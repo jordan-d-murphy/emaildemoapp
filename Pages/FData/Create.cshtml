@@ -1,0 +1,89 @@
+@page
+@model emaildemoapp.Pages_FData.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>FData</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FData.Email" class="control-label"></label>
+                <input asp-for="FData.Email" class="form-control" />
+                <span asp-validation-for="FData.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FData.Password" class="control-label"></label>
+                <input asp-for="FData.Password" class="form-control" />
+                <span asp-validation-for="FData.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FData.Address1" class="control-label"></label>
+                <input asp-for="FData.Address1" class="form-control" />
+                <span asp-validation-for="FData.Address1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FData.Address2" class="control-label"></label>
+                <input asp-for="FData.Address2" class="form-control" />
+                <span asp-validation-for="FData.Address2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FData.City" class="control-label"></label>
+                <input asp-for="FData.City" class="form-control" />
+                <span asp-validation-for="FData.City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FData.State" class="control-label"></label>
+                <input asp-for="FData.State" class="form-control" />
+                <span asp-validation-for="FData.State" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FData.Zip" class="control-label"></label>
+                <input asp-for="FData.Zip" class="form-control" />
+                <span asp-validation-for="FData.Zip" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FData.TextArea" class="control-label"></label>
+                <input asp-for="FData.TextArea" class="form-control" />
+                <span asp-validation-for="FData.TextArea" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FData.Check1" class="control-label"></label>
+                <input asp-for="FData.Check1" class="form-control" />
+                <span asp-validation-for="FData.Check1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FData.Check2" class="control-label"></label>
+                <input asp-for="FData.Check2" class="form-control" />
+                <span asp-validation-for="FData.Check2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FData.Check3" class="control-label"></label>
+                <input asp-for="FData.Check3" class="form-control" />
+                <span asp-validation-for="FData.Check3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FData.SubmittedDate" class="control-label"></label>
+                <input asp-for="FData.SubmittedDate" class="form-control" />
+                <span asp-validation-for="FData.SubmittedDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
